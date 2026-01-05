@@ -24,23 +24,23 @@ This project is an enterprise-grade Predictive Maintenance System designed for t
 
 ```mermaid
 graph TD
-    Client[IoT Sensors / Client] -->|POST /predict JSON| API[Flask REST API]
+    Client["IoT Sensors / Client"] -->|POST /predict JSON| API["Flask REST API"]
     
     subgraph "Inference Pipeline"
-        API --> Validator[Schema & Range Validator]
-        Validator --> Preprocessor[Scaler (StandardScaler)]
-        Preprocessor --> Model[XGBoost Classifier]
-        Model --> Explainer[SHAP TreeExplainer]
+        API --> Validator["Schema & Range Validator"]
+        Validator --> Preprocessor["Scaler (StandardScaler)"]
+        Preprocessor --> Model["XGBoost Classifier"]
+        Model --> Explainer["SHAP TreeExplainer"]
     end
     
-    Explainer -->|Prediction + Risk Factors| API
-    API -->|JSON Response| Client
+    Explainer -->|"Prediction + Risk Factors"| API
+    API -->|"JSON Response"| Client
     
     subgraph "Offline Training (Weekly)"
-        RawData[(Historical DB)] --> Cleaning[Data Cleaning]
-        Cleaning --> FeatureEng[Feature Engineering]
-        FeatureEng --> Training[XGBoost Training]
-        Training --> Artifacts[Save Model & Scaler]
+        RawData[("Historical DB")] --> Cleaning["Data Cleaning"]
+        Cleaning --> FeatureEng["Feature Engineering"]
+        FeatureEng --> Training["XGBoost Training"]
+        Training --> Artifacts["Save Model & Scaler"]
     end
 ```
 
