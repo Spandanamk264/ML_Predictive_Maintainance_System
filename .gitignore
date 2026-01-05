@@ -1,0 +1,113 @@
+# ==============================================================================
+# Predictive Maintenance Project - .gitignore
+# ==============================================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+py_env/
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data Files (large files - download separately)
+# Uncomment to exclude data from repo
+# data/raw/*.csv
+# data/processed/*.csv
+
+# Models (large files - optional)
+# Uncomment to exclude models from repo
+# models/*.joblib
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Profiling
+*.prof
+
+# Secrets (IMPORTANT: Never commit secrets)
+.env
+.env.local
+.env.production
+secrets.json
+*_secret*
+*_key*
+
+# Large/Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Reference documents (not part of codebase)
+*.pdf
+IOT_Maintenance*.txt
+Project_Structure*.txt
+
+# Outputs that can be regenerated
+outputs/artifacts/

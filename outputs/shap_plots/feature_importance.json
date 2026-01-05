@@ -1,0 +1,22 @@
+{
+  "Rotational speed [rpm]": 1.6917093992233276,
+  "Tool wear [min]": 1.4701932668685913,
+  "Power": 1.441502571105957,
+  "Torque [Nm]": 1.0297584533691406,
+  "Temp_stress": 0.8534334897994995,
+  "Tool wear [min]_roll_min_8h": 0.394002765417099,
+  "Torque [Nm]_lag_1": 0.34121909737586975,
+  "Tool wear [min]_roll_min_4h": 0.3409353792667389,
+  "Rotational speed [rpm]_roc": 0.30008649826049805,
+  "Temp_diff": 0.24260765314102173,
+  "Torque [Nm]_roll_mean_4h": 0.2392871081829071,
+  "Tool wear [min]_roll_max_8h": 0.21541789174079895,
+  "Torque [Nm]_roll_mean_8h": 0.20424914360046387,
+  "Tool wear [min]_roll_std_4h": 0.2016940414905548,
+  "Wear_rate": 0.199842169880867,
+  "Torque [Nm]_roll_min_4h": 0.19894511997699738,
+  "Process temperature [K]_roll_std_1h": 0.19252902269363403,
+  "Air temperature [K]_roll_std_4h": 0.18948203325271606,
+  "Power_per_rpm": 0.18694061040878296,
+  "Tool wear [min]_roc": 0.18451455235481262
+}

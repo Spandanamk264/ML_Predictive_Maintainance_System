@@ -1,0 +1,56 @@
+{
+  "model_name": "XGBoost",
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "roc_auc": 1.0,
+  "mcc": 1.0,
+  "confusion_matrix": [
+    [
+      9497,
+      0
+    ],
+    [
+      0,
+      336
+    ]
+  ],
+  "best_params": {
+    "subsample": 0.9,
+    "n_estimators": 500,
+    "min_child_weight": 3,
+    "max_depth": 7,
+    "learning_rate": 0.2,
+    "gamma": 0,
+    "colsample_bytree": 0.8
+  },
+  "cv_best_score": 0.5931586913070248,
+  "n_samples": 9833,
+  "n_features": 106,
+  "positive_rate": 0.03417064985253737,
+  "scale_pos_weight": 28.264880952380953,
+  "timestamp": "2025-12-24T12:02:51.557603",
+  "top_features": {
+    "Tool wear [min]_ema_12": 0.13031457364559174,
+    "Rotational speed [rpm]": 0.09095942974090576,
+    "Tool wear [min]_roll_min_1h": 0.08316333591938019,
+    "Tool wear [min]_lag_2": 0.07649683952331543,
+    "Tool wear [min]": 0.059019215404987335,
+    "Torque [Nm]": 0.054824911057949066,
+    "Power": 0.030696405097842216,
+    "Power_per_rpm": 0.02679518796503544,
+    "Temp_stress": 0.02542109042406082,
+    "Temp_diff": 0.024251827970147133,
+    "Tool wear [min]_lag_1": 0.016837723553180695,
+    "Torque [Nm]_roc": 0.012978382408618927,
+    "Wear_rate": 0.012597478926181793,
+    "Tool wear [min]_roll_min_4h": 0.01247265562415123,
+    "Tool wear [min]_roll_mean_1h": 0.01239973958581686,
+    "Air temperature [K]_roll_mean_8h": 0.012182001955807209,
+    "Tool wear [min]_roll_min_8h": 0.011705849319696426,
+    "Process temperature [K]_roll_min_1h": 0.010558119043707848,
+    "Air temperature [K]": 0.00922185368835926,
+    "Rotational speed [rpm]_roc": 0.008207044564187527
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "model_name": "Random Forest",
+  "accuracy": 0.9976609376589037,
+  "precision": 0.938375350140056,
+  "recall": 0.9970238095238095,
+  "f1": 0.9668109668109668,
+  "roc_auc": 0.9998821683037751,
+  "mcc": 0.9660765129783189,
+  "confusion_matrix": [
+    [
+      9475,
+      22
+    ],
+    [
+      1,
+      335
+    ]
+  ],
+  "best_params": {
+    "n_estimators": 100,
+    "min_samples_split": 10,
+    "min_samples_leaf": 4,
+    "max_depth": 20,
+    "class_weight": "balanced"
+  },
+  "cv_best_score": 0.4782097151396372,
+  "n_samples": 9833,
+  "n_features": 106,
+  "timestamp": "2025-12-24T12:03:49.862173"
+}

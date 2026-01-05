@@ -1,0 +1,42 @@
+{
+  "total_features_checked": 5,
+  "features_aligned": 4,
+  "anomalies_detected": 1,
+  "anomaly_rate": 0.1999600079984003,
+  "validations": [
+    {
+      "feature": "Process temperature [K]",
+      "expected_direction": "positive",
+      "actual_correlation": 0.5441660852278174,
+      "matches_expectation": true
+    },
+    {
+      "feature": "Torque [Nm]",
+      "expected_direction": "positive",
+      "actual_correlation": 0.49479346641543986,
+      "matches_expectation": true
+    },
+    {
+      "feature": "Tool wear [min]",
+      "expected_direction": "positive",
+      "actual_correlation": 0.6246350041321254,
+      "matches_expectation": true
+    },
+    {
+      "feature": "Power_per_rpm",
+      "expected_direction": "positive",
+      "actual_correlation": 0.2894191074684781,
+      "matches_expectation": true
+    }
+  ],
+  "anomalies": [
+    {
+      "feature": "Temp_diff",
+      "expected_direction": "positive",
+      "actual_correlation": -0.33582712071965903,
+      "matches_expectation": false,
+      "severity": "MEDIUM"
+    }
+  ],
+  "timestamp": "2025-12-24T12:08:13.200957"
+}
